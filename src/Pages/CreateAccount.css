@@ -1,0 +1,72 @@
+.create-account-container {
+  width: 398px;
+  height: 550px;
+  padding: 100px 20px 0 16px;
+  /* border: 2px solid pink; */
+  display: flex;
+  flex-direction: column;
+}
+
+.account-heading {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 45px;
+  padding: 13px 0;
+}
+
+.create-account-form {
+  font-size: 11px;
+}
+
+.first-name,
+.last-name,
+.create-email,
+.create-password {
+  margin-bottom: 15px;
+  width: 358px;
+  height: 42px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: #bba293;
+  border-top: 1px solid #bba293;
+  border-right: 1px solid #bba293;
+  border-bottom: 1px solid #bba293;
+  border-left: 1px solid #bba293;
+  padding-left: 10px;
+}
+
+.first-name::placeholder,
+.last-name::placeholder,
+.create-email::placeholder,
+.create-password::placeholder {
+  color: #bba293;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.create-disclaimer {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  height: 35px;
+  width: 93px;
+  color: #e6e6d6;
+  background-color: #5e5047;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: 0.05px ridge;
+  border-color: #e6e6d6;
+  margin-bottom: 30px;
+}
+
+.create-login {
+  padding-top: 8px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 25px;
+}

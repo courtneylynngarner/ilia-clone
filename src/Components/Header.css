@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #5e5047;
+}
+
+.promotion {
+  background-color: #bba293;
+  color: #ffffff;
+  text-align: center;
+  height: 28px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  z-index: 2;
+  /* border: 2px solid red; */
+}
+
+.top-header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: fixed;
+}
+
+.header-whitespace {
+  background-color: #ffffff;
+  height: 28px;
+  width: 100vw;
+  position: fixed;
+}
+
+.top-part-header {
+  /* border: solid 2px pink; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  background-color: #ffffff;
+  z-index: 5;
+}
+
+.left-ilia {
+  width: 100px;
+  border: solid 2px lavender;
+}
+
+/* .ilia-header {
+  padding: 30px 0 10px 15px;
+  width: 150px;
+  height: 70px;
+  line-height: 5px;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 5px;
+  border: 2px solid purple;
+} */
+.ilia-header {
+  width: 73px;
+  height: 27px;
+  justify-content: center;
+  align-content: center;
+}
+
+.log-in {
+  font-size: 13px;
+  display: flex;
+  width: 60px;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 1px;
+  border: 2px solid coral;
+  z-index: 10;
+}
+
+.purse-container {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.purse-icon {
+  height: 60px;
+  width: 60px;
+  padding-bottom: 10px;
+}
+
+.checkout-items {
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 31px;
+  bottom: 22px;
+}
+
+.top-links-container {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid blue; */
+}
+.top-links {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 800px;
+  height: 40px;
+  padding-bottom: 10px;
+  z-index: 5;
+}
+p {
+  margin: 0;
+}

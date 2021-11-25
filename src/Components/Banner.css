@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  /* border: 2px solid blue; */
+  width: 100vw;
+  height: 440px;
+}
+
+.holiday {
+  height: 440px;
+  width: 100vw;
+}
+
+.banner-1-large {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45px;
+  padding-top: 10px;
+  text-align: center;
+  /* border: 2px solid pink; */
+}
+
+.banner-1-small {
+  font-size: 14px;
+  /* letter-spacing: 1px; */
+  text-align: center;
+  font-weight: 600;
+  /* border: 2px solid lightskyblue; */
+  padding-bottom: 20px;
+}
+
+.banner-button {
+  background-color: #5e5047;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  height: 35px;
+  width: 118px;
+  align-self: center;
+}
+
+.banner-whitespace {
+  height: 55px;
+  /* border: 2px solid brown; */
+}
